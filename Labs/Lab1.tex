@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{graphicx,graphics}
+\usepackage{fullpage}
+\usepackage{hyperref}
+
+\usepackage[margin=.75in]{geometry}
+\definecolor{listingbg}{rgb}{.95,.95,.95}
+\usepackage{listings}
+\lstset{language=python,
+basicstyle=\small\tt,
+keywordstyle=\small\tt\bf,
+stringstyle=\small\tt,
+tabsize=4,
+showstringspaces=false,
+numbers=left,
+numberstyle=\tiny,
+frame=single,
+backgroundcolor=\color{listingbg}
+}
+%"Variable" to store the lab number
+\newcommand{\labnumber}[0]{1}
+
+\begin{document}
+
+%{\begin{center}
+%\includegraphics[width=1.25in]{wordmark}
+%\end{center}}
+
+\section*{Statistics I Lab  \labnumber \hspace{1in}}
+
+\textbf{Submission Instructions:} Welcome to Lab 1. Upon completion, you \emph{should upload} your \textbf{Word Document} and \textbf{Minitab Project files} to Blackboard by 11:59 PM of the due date. \\
+
+\noindent\textbf{Problems}
+\\
+The aim of this lab is to serve as an introduction to some of the basics of Minitab and complement the topics covered in Chapter 1
+
+\begin{enumerate}
+
+\item \textbf{Question 1} (30 points) \\
+The Activity file contains data relating to health care commissioned by the Scottish government to address health inequalities.
+\begin{itemize}
+\item For each variable in the dataset, decide which are quantitative and which are qualitative.
+\item Produce a table to examine the distribution of patient activity.
+\item Use the Graph option to produce a pie chart of the activity levels. Use the various options to change the titles and format of the chart.
+\item Use the Graph option to produce a histogram of the pulse rates. Comment on the distribution of the data and produce a table of the most appropriate statistics to summarise the location and spread of the pulse rates.
+\item Compute descriptive statistics for the pulse rates for each level of activity and comment on any differences between the three groups.
+\end{itemize}
+
+
+\item \textbf{Question 2} (20 points) \\
+The data below show rainfall levels for each month (mm) for a location in the USA:
+\begin{verbatim}
+SamSamWater Climate Tool
+Name of location (approximately): Palm Springs, CA 92264, USA
+Latitude: 33.82790 (decimal degrees)
+Longitude: -116.57257 (decimal degrees)
+Altitude: (m above mean sea level)
+Average precipitation (in mm or liter per m) for this location is listed
+in the table below.
+Month Rainfall (mm)
+January 99
+February 82
+March 93
+April 58
+May 24
+June 8
+July 19
+August 27
+September 22
+October 24
+November 66
+December 82
+\end{verbatim}
+Produce a bar chart of this data to illustrate the trend over time – the data are available in the Excel worksheet Rainfall.
+
+Note: This data is available at http://www.samsamwater.com/climate/index.php.
+Download rainfall data at another location from this website and produce a similar plot.
+
+\item \textbf{Question 3} (20 points) \\
+Crime data were downloaded for Tayside police force areas on SIMD and crime counts (which relates to selected recorded offences, not all crimes committed in the area). These are available in the Excel file Crimes and were downloaded from:
+
+http://simd.scotland.gov.uk/publication-2012/download-simd-2012-data/
+
+Produce a plot to illustrate the relationship between SIMD and crime rates and comment on the relationship.
+
+
+
+\item \textbf{Question 4} (30 points) \\
+People who are concerned about their health may prefer hotdogs that are low in salt and calories. The Hotdogs datafile contains data on the sodium and calories contained in each of 54 major hotdog brands. The hotdogs are classified by type: beef, poultry, and meat (mostly pork and beef, but up to 15\% poultry meat).
+\begin{itemize}
+\item Produce a table to show the number and percentage of each type of hotdog in the data set.
+\item Produce a plot to compare the calories between the different types of hotdog and give a subjective impression of any differences. (Hint: This could be done using a boxplot of calories for each type of hotdog on the same graph, which allows a good visual comparison. Use \textbf{Graph} $>$ \textbf{Boxplot} and select the option \textbf{With Groups}. The \textbf{Graph variable} is \textbf{Calories} and in the \textbf{Categorical variables} box enter \textbf{Type})
+\item Produce a plot to investigate any association between the amount of sodium in the hotdogs and the calorie content and interpretation the relationship. (Hint: A scatterplot is the appropriate graphical display to use to subjectively assess the association between two quantitative variables, i.e. Sodium and Calories).
+\end{itemize}
+
+
+\end{enumerate}
+
+
+
+\textbf{Saving Data and Output}\\
+
+
+In the \textbf{File} command there are two options for saving a Minitab file:
+\begin{itemize}
+
+\item \textbf{Save Current Worksheet} saves only the data. There are options to \textbf{Save as Type} which allows you to save the data as a Minitab worksheet or as an Excel worksheet.
+\item \textbf{Save Project} - this option saves the whole Minitab file exactly as it is, including all the output in the session window. Once re-opened, the data sheet will be available along with all the previous output and graphs.
+
+\end{itemize}
+
+
+Have fun!
+
+\end{document} 
